@@ -1,0 +1,26 @@
+[Unit]
+Description=DudgX's distributed currency daemon
+After=network.target
+
+[Service]
+User=DudgX
+Group=DudgX
+
+Type=forking
+PIDFile=/var/lib/DudgXd/DudgXd.pid
+
+ExecStart=/usr/bin/DudgXd -daemon -pid=/var/lib/DudgXd/DudgXd.pid \
+          -conf=/etc/DudgX/DudgX.conf -datadir=/var/lib/DudgXd
+
+ExecStop=-/usr/bin/DudgX-cli -conf=/etc/DudgX/DudgX.conf \
+         -datadir=/var/lib/DudgXd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

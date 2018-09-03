@@ -1,0 +1,26 @@
+# /etc/conf.d/DudgXd: config file for /etc/init.d/DudgXd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/DudgX/DudgX.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/DudgXd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/DudgXd.pid"
+
+# Where to write DudgXd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/DudgXd"
+
+# User and group to own DudgXd process
+#BITCOIND_USER="DudgX"
+#BITCOIND_GROUP="DudgX"
+
+# Path to DudgXd executable
+#BITCOIND_BIN="/usr/bin/DudgXd"
+
+# Nice value to run DudgXd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

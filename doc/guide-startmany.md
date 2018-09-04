@@ -58,7 +58,7 @@ Close your QT Wallet.
 
 ### Send 50,000 DudgX to New Addresses
 
-Just like setting up a standard MN. Send exactly 10,000 DudgX to each new address created above.
+Just like setting up a standard MN. Send exactly 50,000 DudgX to each new address created above.
 
 ### Create New Masternode Private Keys
 
@@ -82,7 +82,7 @@ Copy the masternode private key and correspondig collateral output transaction t
 
 The masternode private key may be an existing key from [Option 1](#option1), or a newly generated key from [Option 2](#option2). 
 
-*Please note, the masternode priviate key is not the same as a wallet private key. Never put your wallet private key in the masternode.conf file. That is equivalent to putting your 10,000 DudgX on the remote server and defeats the purpose of a hot/cold setup.*
+*Please note, the masternode priviate key is not the same as a wallet private key. Never put your wallet private key in the masternode.conf file. That is equivalent to putting your 50,000 DudgX on the remote server and defeats the purpose of a hot/cold setup.*
 
 ### Get the collateral output
 

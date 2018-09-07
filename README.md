@@ -5,10 +5,10 @@
 |:-----------|:-----------|
 | Block Size | `4MB` |
 | Block Time | `60s` |
-| PoS Reward | `50 Plex` |
+| PoS Reward | `50 DUDGX` |
 | Stake Time | `1 hours` |
-| Masternode Requirement | `10,000 Plex` |
-| Masternode Reward | `60% PoS Block ` |
+| Masternode Requirement | `50,000 DUDGX` |
+| Masternode Reward | `65% PoS Block ` |
 | Port | `44771` |
 | RPC Port | `44772` |
 | Masternode Port | `44771` |
